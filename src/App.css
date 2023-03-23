@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  background-color: #eeccff;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #660066;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h6 {
+  color: #cc99ff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.status {
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background-color: #cc99ff;
+  border: 1px solid #660066;
+  color: #ff6600;
+  font-size: 24px;
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.square:focus {
+  outline: none;
+}
